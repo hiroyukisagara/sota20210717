@@ -1,8 +1,18 @@
-.title {
-    background-color: blue;
-    color:white;
-    padding-left: 10px;
-  }
+h1:first-letter {
+  font-size: 2em;
+  color: #7172ac;
+  position: relative;
+  padding: 0.25em 0;
+}
+
+h1:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
+  background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+}
+
 .main{
   text-align: center;
 }
