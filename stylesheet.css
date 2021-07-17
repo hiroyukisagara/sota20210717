@@ -2,8 +2,10 @@
     background-color: blue;
     color:white;
     padding-left: 10px;
-
   }
+.main{
+  text-align: center;
+}
 
 .game{
   padding-left: 50px; 
